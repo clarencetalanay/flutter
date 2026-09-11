@@ -23,10 +23,15 @@ class MyApp extends StatelessWidget {
                   ),
                   Text('Bachelor of Science in Information Technology', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey)
                   ),
-                  SizedBox(height:150),
-                  Column(
+                  
+                  SizedBox(height:100),
+                  SizedBox(width:100),
+                  Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children:[
                       Icon(Icons.home_outlined, color: Colors.deepPurple, size: 45,
                       ),
                       Text(
@@ -34,7 +39,8 @@ class MyApp extends StatelessWidget {
                       ),
                     ],
                   ),
-                  SizedBox(height:150),
+                  
+                  SizedBox(width:100),
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -45,7 +51,8 @@ class MyApp extends StatelessWidget {
                       ),
                     ],
                   ),
-                  SizedBox(height:150),
+                  
+                  SizedBox(width:100),
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -53,10 +60,11 @@ class MyApp extends StatelessWidget {
                       ),
                       Text(
                         'Profile', style: TextStyle(fontSize: 21, color: Colors.grey)
+                          ),
+                        ],
                       ),
                     ],
                   ),
-                   
                 ],
               ),
             ),
